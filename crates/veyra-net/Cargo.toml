@@ -1,0 +1,12 @@
+[package]
+name = "veyra-net"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "HTTP/1.1, TLS, cookies, caching and downloads for the Veyra engine"
+
+[dependencies]
+veyra-common.workspace = true
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12", "logging"] }
+webpki-roots = "0.26"
+flate2 = "1"

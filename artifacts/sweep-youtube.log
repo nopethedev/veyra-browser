@@ -1,0 +1,13 @@
+url: https://www.youtube.com/
+status: 200
+title: YouTube
+viewport: 1280x900
+elements: 1246
+layout boxes: 225
+scripts: 41 run, 0 modules skipped
+stylesheets: 7 network, 0 inserted
+images: 0 cached
+errors: 1
+
+error: MutationObserver: Uncaught TypeError: cannot read properties of undefined (reading '__shady')
+saved artifacts/sweep-youtube.png (27385 bytes)

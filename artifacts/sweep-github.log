@@ -1,0 +1,15 @@
+url: https://github.com/
+status: 200
+title: GitHub · Change is constant. GitHub keeps you ahead. · GitHub · GitHub
+viewport: 1280x900
+elements: 2133
+layout boxes: 1617
+scripts: 5 run, 0 modules skipped
+stylesheets: 20 network, 0 inserted
+images: 21 cached
+errors: 3
+
+error: module error [https://github.githubassets.com/assets/core-6935a8927e985bcf.js]: module https://github.githubassets.com/assets/core-6935a8927e985bcf.js: TypeError: cannot read properties of undefined (reading 'length') [line 2] [at anonymous:2]
+error: module error [https://github.githubassets.com/assets/marketing-essentials-cd3f0014659f2196.js]: module https://github.githubassets.com/assets/core-6935a8927e985bcf.js: TypeError: cannot read properties of undefined (reading 'length') [line 2] [at anonymous:2]
+error: module error [https://github.githubassets.com/assets/landing-pages-1d3a39fd06c68399.js]: module https://github.githubassets.com/assets/core-6935a8927e985bcf.js: TypeError: cannot read properties of undefined (reading 'length') [line 2] [at anonymous:2]
+saved artifacts/sweep-github.png (150356 bytes)

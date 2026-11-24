@@ -1,0 +1,13 @@
+url: https://developer.mozilla.org/en-US/
+status: 200
+title: MDN Web Docs
+viewport: 1280x900
+elements: 838
+layout boxes: 237
+scripts: 6 run, 0 modules skipped
+stylesheets: 20 network, 0 inserted
+images: 1 cached
+errors: 1
+
+error: module error [https://developer.mozilla.org/static/client/index.029f7c24d22174b5.js]: module https://developer.mozilla.org/static/client/index.029f7c24d22174b5.js: TypeError: cannot read properties of undefined (reading 'length') [line 1] [at anonymous:1]
+saved artifacts/sweep-mdn.png (83025 bytes)

@@ -1,0 +1,12 @@
+url: https://news.ycombinator.com/
+status: 200
+title: Hacker News
+viewport: 1280x900
+elements: 807
+layout boxes: 766
+scripts: 1 run, 0 modules skipped
+stylesheets: 1 network, 0 inserted
+images: 1 cached
+errors: 0
+
+saved artifacts/sweep-hn.png (225073 bytes)

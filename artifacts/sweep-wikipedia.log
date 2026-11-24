@@ -1,0 +1,12 @@
+url: https://en.wikipedia.org/wiki/Main_Page
+status: 200
+title: Wikipedia, the free encyclopedia
+viewport: 1280x900
+elements: 2335
+layout boxes: 1014
+scripts: 4 run, 0 modules skipped
+stylesheets: 2 network, 0 inserted
+images: 18 cached
+errors: 0
+
+saved artifacts/sweep-wikipedia.png (602310 bytes)

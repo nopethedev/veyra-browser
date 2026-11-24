@@ -1,0 +1,18 @@
+[package]
+name = "veyra-paint"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Software rasteriser and painter for the Veyra browser"
+
+[dependencies]
+veyra-common.workspace = true
+veyra-css.workspace = true
+veyra-dom.workspace = true
+veyra-layout.workspace = true
+fontdue = "0.9"
+png = "0.17"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif", "webp", "bmp", "ico"] }
+
+[dev-dependencies]
+veyra-html.workspace = true

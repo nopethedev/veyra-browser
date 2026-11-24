@@ -1,0 +1,13 @@
+url: https://www.google.com/
+status: 200
+title: Google
+viewport: 1280x900
+elements: 418
+layout boxes: 101
+scripts: 14 run, 0 modules skipped
+stylesheets: 3 network, 0 inserted
+images: 0 cached
+errors: 1
+
+error: script error [inline:?] TypeError: value is not a function: b.j.req.addEventListener [stack: at anonymous:10; at f:1; at wa:10; at g:2; at anonymous:13] [source: (function(){var apx=false;function f(a,b){if(a.wfpe&&document.prerende]
+saved artifacts/sweep-google.png (63480 bytes)

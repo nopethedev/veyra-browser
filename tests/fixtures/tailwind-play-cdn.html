@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tailwind CDN fixture</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: { brand: { 500: '#6366f1', 700: '#4338ca' } }
+    }
+  }
+};
+</script>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur">
+    <nav class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <span class="text-lg font-bold tracking-tight text-brand-700">Veyra</span>
+      <div class="flex items-center gap-6 text-sm font-medium text-slate-600">
+        <a class="hover:text-brand-500" href="#features">Features</a>
+        <a class="hover:text-brand-500" href="#pricing">Pricing</a>
+        <button class="rounded-lg bg-brand-500 px-4 py-2 text-white shadow hover:bg-brand-700" onclick="document.getElementById('msg').textContent='Tailwind CDN JavaScript wired up!'">Try it</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-6 py-16">
+    <p id="msg" class="mb-4 text-sm font-semibold uppercase tracking-widest text-brand-500">Utility CSS, zero build step</p>
+    <h1 class="max-w-2xl text-5xl font-extrabold leading-tight tracking-tight">Build beautiful interfaces with <span class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Tailwind CSS</span>.</h1>
+    <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">A tiny CDN script scans the DOM and generates exactly the CSS this page needs, including responsive variants, gradients, shadows, transforms and transitions.</p>
+
+    <div class="mt-10 flex flex-wrap gap-4">
+      <a href="#" class="rounded-xl bg-slate-900 px-6 py-3 font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl">Get started</a>
+      <a href="#" class="rounded-xl border border-slate-300 bg-white px-6 py-3 font-semibold text-slate-700 shadow-sm">Documentation</a>
+    </div>
+
+    <section id="features" class="mt-16 grid grid-cols-1 gap-6 md:grid-cols-3">
+      <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div class="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-100 text-xl font-black text-indigo-600">1</div>
+        <h2 class="text-lg font-bold">Responsive by default</h2>
+        <p class="mt-2 text-sm leading-6 text-slate-600">Mobile-first breakpoints rearrange this grid from one column to three.</p>
+      </article>
+      <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div class="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-purple-100 text-xl font-black text-purple-600">2</div>
+        <h2 class="text-lg font-bold">Modern effects</h2>
+        <p class="mt-2 text-sm leading-6 text-slate-600">Semi-transparent headers, shadows, rounded corners and gradient text.</p>
+      </article>
+      <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div class="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-pink-100 text-xl font-black text-pink-600">3</div>
+        <h2 class="text-lg font-bold">Tiny footprint</h2>
+        <p class="mt-2 text-sm leading-6 text-slate-600">The Play CDN creates styles at runtime, perfect for prototyping.</p>
+      </article>
+    </section>
+
+    <section class="mt-16 overflow-hidden rounded-3xl bg-slate-900 px-8 py-12 text-center text-white shadow-2xl">
+      <h2 class="text-3xl font-bold">Ready to ship?</h2>
+      <p class="mx-auto mt-3 max-w-md text-slate-300">Every class above came from the Tailwind CDN running inside Veyra's own JavaScript engine.</p>
+      <button id="counter" class="mt-8 rounded-full bg-white px-6 py-3 font-bold text-slate-900" onclick="this.textContent='Clicked '+ (++window.clicks) + ' times'">Click me</button>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 py-8 text-center text-sm text-slate-500">Tailwind fixture for Veyra</footer>
+  <script>window.clicks = 0;</script>
+</body>
+</html>

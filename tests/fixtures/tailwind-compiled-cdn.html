@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tailwind compiled CDN fixture</title>
+<!-- Compiled Tailwind v2 stylesheet from the CDN: this is the Tailwind path Veyra supports today.
+     No client-side CSS compilation is involved, so it exercises the CSS engine, not the JS JIT. -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+  <header class="border-b border-gray-200 bg-white">
+    <nav class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <span class="text-lg font-bold tracking-tight text-indigo-700">Veyra</span>
+      <div class="flex items-center gap-6 text-sm font-medium text-gray-600">
+        <a class="hover:text-indigo-600" href="#features">Features</a>
+        <button class="rounded-lg bg-indigo-600 px-4 py-2 text-white shadow hover:bg-indigo-700"
+                onclick="document.getElementById('msg').textContent='Tailwind fixture JS wired up.'">Try it</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-6 py-16">
+    <p id="msg" class="mb-4 text-sm font-semibold uppercase tracking-widest text-indigo-600">Utility CSS, zero build step</p>
+    <h1 class="max-w-2xl text-5xl font-extrabold leading-tight tracking-tight">
+      Build beautiful interfaces with
+      <span class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Tailwind CSS</span>.
+    </h1>
+    <p class="mt-6 max-w-xl text-lg leading-relaxed text-gray-600">A precompiled utility stylesheet exercises gradients, shadows, flexbox, grid and rounded corners in Veyra's own CSS engine.</p>
+
+    <div class="mt-10 flex flex-wrap gap-4">
+      <a href="#" class="rounded-xl bg-gray-900 px-6 py-3 font-semibold text-white shadow-lg">Get started</a>
+      <a href="#" class="rounded-xl border border-gray-300 bg-white px-6 py-3 font-semibold text-gray-700 shadow-sm">Documentation</a>
+    </div>
+
+    <section id="features" class="mt-16 grid grid-cols-1 gap-6 md:grid-cols-3">
+      <article class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+        <div class="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-100 text-xl font-black text-indigo-600">1</div>
+        <h2 class="text-lg font-bold">Responsive by default</h2>
+        <p class="mt-2 text-sm leading-6 text-gray-600">Grid columns collapse to one on narrow viewports.</p>
+      </article>
+      <article class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+        <div class="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-purple-100 text-xl font-black text-purple-600">2</div>
+        <h2 class="text-lg font-bold">Modern effects</h2>
+        <p class="mt-2 text-sm leading-6 text-gray-600">Shadows, rounded corners and gradient text.</p>
+      </article>
+      <article class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+        <div class="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-pink-100 text-xl font-black text-pink-600">3</div>
+        <h2 class="text-lg font-bold">Tiny footprint</h2>
+        <p class="mt-2 text-sm leading-6 text-gray-600">One stylesheet request, no runtime compiler.</p>
+      </article>
+    </section>
+
+    <section class="mt-16 rounded-3xl bg-gray-900 px-8 py-12 text-center text-white shadow-2xl">
+      <h2 class="text-3xl font-bold">Ready to ship?</h2>
+      <p class="mx-auto mt-3 max-w-md text-gray-300">Every class above comes from a compiled Tailwind stylesheet rendered by the Veyra CSS engine.</p>
+      <button id="counter" class="mt-8 rounded-full bg-white px-6 py-3 font-bold text-gray-900"
+              onclick="this.textContent = 'Clicked ' + (++window.clicks) + ' times'">Click me</button>
+    </section>
+  </main>
+  <footer class="border-t border-gray-200 py-8 text-center text-sm text-gray-500">Tailwind compiled-CSS fixture for Veyra</footer>
+  <script>window.clicks = 0;</script>
+</body>
+</html>

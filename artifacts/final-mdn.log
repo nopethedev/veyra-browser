@@ -1,0 +1,32 @@
+LOAD stage=stylesheets ms=0
+LOAD stage=images ms=1188
+LOAD stage=scripts ms=1188
+LOAD stage=finish ms=1986
+FINISH dcl ms=0 steps=1295
+FINISH pump1 ms=0 steps=1295
+FINISH load ms=0 steps=1295
+FINISH css ms=0 styles=17
+FINISH pump2 ms=0 steps=1295
+REBUILD parse ms=5 sheets=40 bytes=116139
+REBUILD compute ms=675 elements=5220 matched=73452 candidates=629372
+REBUILD styles ms=682 sheets=40
+REBUILD layout ms=160
+FINISH rebuild ms=843 steps=1295
+LOAD stage=done ms=2830
+CLI Page::load ms=3234
+CLI pump ms=0
+CLI wait pump ms=0
+CLI timers ms=0
+url: https://developer.mozilla.org/en-US/docs/Web/CSS
+status: 200
+title: CSS: Cascading Style Sheets | MDN
+viewport: 1280x900
+elements: 5220
+layout boxes: 4417
+scripts: 6 run, 0 modules skipped
+stylesheets: 17 network, 0 inserted
+images: 0 cached
+errors: 1
+
+error: module error [https://developer.mozilla.org/static/client/index.029f7c24d22174b5.js]: module https://developer.mozilla.org/static/client/index.029f7c24d22174b5.js: TypeError: cannot read properties of undefined (reading 'length')
+saved artifacts/final-mdn.png (438732 bytes)

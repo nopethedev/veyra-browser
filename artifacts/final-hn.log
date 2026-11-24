@@ -1,0 +1,31 @@
+LOAD stage=stylesheets ms=0
+LOAD stage=images ms=71
+LOAD stage=scripts ms=219
+LOAD stage=finish ms=300
+FINISH dcl ms=0 steps=108
+FINISH pump1 ms=0 steps=108
+FINISH load ms=0 steps=108
+FINISH css ms=0 styles=1
+FINISH pump2 ms=0 steps=108
+REBUILD parse ms=1 sheets=1 bytes=7456
+REBUILD compute ms=7 elements=807 matched=1356 candidates=8329
+REBUILD styles ms=9 sheets=1
+REBUILD layout ms=3
+FINISH rebuild ms=13 steps=108
+LOAD stage=done ms=314
+CLI Page::load ms=735
+CLI pump ms=0
+CLI wait pump ms=0
+CLI timers ms=0
+url: https://news.ycombinator.com/
+status: 200
+title: Hacker News
+viewport: 1280x900
+elements: 807
+layout boxes: 766
+scripts: 1 run, 0 modules skipped
+stylesheets: 1 network, 0 inserted
+images: 1 cached
+errors: 0
+
+saved artifacts/final-hn.png (244680 bytes)

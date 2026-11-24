@@ -1,0 +1,91 @@
+LOAD stage=stylesheets ms=0
+LOAD stage=images ms=629
+LOAD stage=scripts ms=973
+MODULE https://github.githubassets.com/assets/high-contrast-cookie-74ae35aa09cc7c63.js bytes=1087 parse_ms=4
+MODULE https://github.githubassets.com/assets/high-contrast-cookie-74ae35aa09cc7c63.js total_ms=4 exports=0
+MODULE https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js bytes=440674 parse_ms=107
+MODULE https://github.githubassets.com/assets/67726-c553d6e25833b056.js bytes=457085 parse_ms=104
+MODULE https://github.githubassets.com/assets/67726-c553d6e25833b056.js total_ms=106 exports=2
+MODULE https://github.githubassets.com/assets/app-runtime-7be512fade7737ff.js bytes=110206 parse_ms=26
+MODULE https://github.githubassets.com/assets/app-runtime-7be512fade7737ff.js total_ms=27 exports=2
+MODULE https://github.githubassets.com/assets/react-core-fded785040c610d1.js bytes=282998 parse_ms=76
+MODULE https://github.githubassets.com/assets/react-core-fded785040c610d1.js total_ms=76 exports=2
+MODULE https://github.githubassets.com/assets/wp-runtime-6e858de892e4912e.js bytes=88423 parse_ms=12
+MODULE https://github.githubassets.com/assets/wp-runtime-6e858de892e4912e.js total_ms=12 exports=1
+MODULE https://github.githubassets.com/assets/react-fa5e2e82e6e0ecc0.js bytes=10195 parse_ms=8
+MODULE https://github.githubassets.com/assets/react-fa5e2e82e6e0ecc0.js total_ms=9 exports=45
+MODULE https://github.githubassets.com/assets/react-dom-c7f52540bb6b77ed.js bytes=5006 parse_ms=9
+MODULE https://github.githubassets.com/assets/react-dom-c7f52540bb6b77ed.js total_ms=9 exports=16
+MODULE https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js bytes=644 parse_ms=4
+MODULE https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js total_ms=4 exports=2
+MODULE https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js bytes=865 parse_ms=6
+MODULE https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js total_ms=6 exports=4
+MODULE https://github.githubassets.com/assets/marketing-essentials-ddc148b02d14e72e.js bytes=5256 parse_ms=12
+MODULE https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js bytes=440674 parse_ms=66
+MODULE https://github.githubassets.com/assets/landing-pages-d18beed1b19279fb.js bytes=2425682 parse_ms=359
+MODULE https://github.githubassets.com/assets/21205-1f194a7697b7b3d2.js bytes=70741 parse_ms=16
+MODULE https://github.githubassets.com/assets/21205-1f194a7697b7b3d2.js total_ms=16 exports=2
+MODULE https://github.githubassets.com/assets/27896-f330c16e705576ab.js bytes=9755 parse_ms=7
+MODULE https://github.githubassets.com/assets/27896-f330c16e705576ab.js total_ms=7 exports=2
+MODULE https://github.githubassets.com/assets/28372-48e332726df8d20f.js bytes=26497 parse_ms=7
+MODULE https://github.githubassets.com/assets/28372-48e332726df8d20f.js total_ms=7 exports=2
+MODULE https://github.githubassets.com/assets/34719-2b062694fc1d0889.js bytes=17272 parse_ms=9
+MODULE https://github.githubassets.com/assets/34719-2b062694fc1d0889.js total_ms=9 exports=2
+MODULE https://github.githubassets.com/assets/34948-3a209ed5684eb9c1.js bytes=69750 parse_ms=22
+MODULE https://github.githubassets.com/assets/34948-3a209ed5684eb9c1.js total_ms=22 exports=2
+MODULE https://github.githubassets.com/assets/35284-c33fd03a0b8bc44e.js bytes=67475 parse_ms=21
+MODULE https://github.githubassets.com/assets/35284-c33fd03a0b8bc44e.js total_ms=21 exports=2
+MODULE https://github.githubassets.com/assets/40320-75fcf060767bfb78.js bytes=3827 parse_ms=6
+MODULE https://github.githubassets.com/assets/40320-75fcf060767bfb78.js total_ms=6 exports=2
+MODULE https://github.githubassets.com/assets/42918-ebd9a7f99e33e476.js bytes=509140 parse_ms=77
+MODULE https://github.githubassets.com/assets/42918-ebd9a7f99e33e476.js total_ms=78 exports=2
+MODULE https://github.githubassets.com/assets/4926-aa172cb923bc2488.js bytes=11374 parse_ms=6
+MODULE https://github.githubassets.com/assets/4926-aa172cb923bc2488.js total_ms=7 exports=2
+MODULE https://github.githubassets.com/assets/50965-da03b798b8d4ef49.js bytes=125495 parse_ms=21
+MODULE https://github.githubassets.com/assets/50965-da03b798b8d4ef49.js total_ms=21 exports=2
+MODULE https://github.githubassets.com/assets/59839-4986f8d3ed688800.js bytes=138845 parse_ms=15
+MODULE https://github.githubassets.com/assets/59839-4986f8d3ed688800.js total_ms=16 exports=2
+MODULE https://github.githubassets.com/assets/64244-0b84129b40e3a01d.js bytes=179853 parse_ms=41
+MODULE https://github.githubassets.com/assets/64244-0b84129b40e3a01d.js total_ms=41 exports=2
+MODULE https://github.githubassets.com/assets/69023-a7360ec5c1042d78.js bytes=100463 parse_ms=27
+MODULE https://github.githubassets.com/assets/69023-a7360ec5c1042d78.js total_ms=27 exports=2
+MODULE https://github.githubassets.com/assets/85486-d8bd5f8aaf4e9c5d.js bytes=538265 parse_ms=53
+MODULE https://github.githubassets.com/assets/85486-d8bd5f8aaf4e9c5d.js total_ms=54 exports=2
+MODULE https://github.githubassets.com/assets/94597-626235b899fa93a4.js bytes=22982 parse_ms=9
+MODULE https://github.githubassets.com/assets/94597-626235b899fa93a4.js total_ms=9 exports=2
+MODULE https://github.githubassets.com/assets/98527-7d1623f9189dc740.js bytes=29342 parse_ms=11
+MODULE https://github.githubassets.com/assets/98527-7d1623f9189dc740.js total_ms=12 exports=2
+MODULE https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js bytes=440674 parse_ms=76
+MODULE https://github.githubassets.com/assets/global-banner-disable-8ef2bcb2f4e43eea.js bytes=596 parse_ms=6
+MODULE https://github.githubassets.com/assets/global-banner-disable-8ef2bcb2f4e43eea.js total_ms=7 exports=0
+LOAD stage=finish ms=2277
+FINISH dcl ms=0 steps=19520
+FINISH pump1 ms=0 steps=19520
+FINISH load ms=0 steps=19520
+FINISH css ms=0 styles=20
+FINISH pump2 ms=0 steps=19520
+REBUILD parse ms=66 sheets=21 bytes=2581613
+REBUILD compute ms=2787 elements=2132 matched=13516 candidates=1533522
+REBUILD styles ms=2854 sheets=21
+REBUILD layout ms=788
+FINISH rebuild ms=3643 steps=19520
+LOAD stage=done ms=5921
+CLI Page::load ms=11522
+CLI pump ms=0
+CLI wait pump ms=0
+CLI timers ms=0
+url: https://github.com/
+status: 200
+title: GitHub · Change is constant. GitHub keeps you ahead. · GitHub · GitHub
+viewport: 1280x900
+elements: 2132
+layout boxes: 1617
+scripts: 5 run, 0 modules skipped
+stylesheets: 20 network, 0 inserted
+images: 21 cached
+errors: 3
+
+error: module error [https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js]: module https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js: TypeError: cannot read properties of undefined (reading 'length')
+error: module error [https://github.githubassets.com/assets/marketing-essentials-ddc148b02d14e72e.js]: module https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js: TypeError: cannot read properties of undefined (reading 'length')
+error: module error [https://github.githubassets.com/assets/landing-pages-d18beed1b19279fb.js]: module https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js: TypeError: cannot read properties of undefined (reading 'length')
+saved artifacts/tmp-github2.png (150356 bytes)

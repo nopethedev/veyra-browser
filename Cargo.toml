@@ -1,0 +1,65 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/veyra-common",
+    "crates/veyra-net",
+    "crates/veyra-dom",
+    "crates/veyra-html",
+    "crates/veyra-css",
+    "crates/veyra-layout",
+    "crates/veyra-paint",
+    "crates/veyra-js",
+    "crates/veyra-engine",
+    "crates/veyra-shell",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Veyra contributors"]
+
+[workspace.dependencies]
+veyra-common = { path = "crates/veyra-common" }
+veyra-net = { path = "crates/veyra-net" }
+veyra-dom = { path = "crates/veyra-dom" }
+veyra-html = { path = "crates/veyra-html" }
+veyra-css = { path = "crates/veyra-css" }
+veyra-layout = { path = "crates/veyra-layout" }
+veyra-paint = { path = "crates/veyra-paint" }
+veyra-js = { path = "crates/veyra-js" }
+veyra-engine = { path = "crates/veyra-engine" }
+veyra-shell = { path = "crates/veyra-shell" }
+
+[package]
+name = "veyra"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Veyra — an independent desktop web browser with its own engine"
+
+[[bin]]
+name = "veyra"
+path = "src/main.rs"
+
+[dependencies]
+veyra-common.workspace = true
+veyra-net.workspace = true
+veyra-dom.workspace = true
+veyra-html.workspace = true
+veyra-css.workspace = true
+veyra-layout.workspace = true
+veyra-paint.workspace = true
+veyra-js.workspace = true
+veyra-engine.workspace = true
+veyra-shell.workspace = true
+png = "0.17"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+opt-level = 1

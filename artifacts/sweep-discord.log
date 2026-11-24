@@ -1,0 +1,22 @@
+url: https://discord.com/
+status: 200
+title: Discord - Group Chat That’s All Fun &amp; Games
+viewport: 1280x900
+elements: 1060
+layout boxes: 431
+scripts: 25 run, 0 modules skipped
+stylesheets: 3 network, 0 inserted
+images: 26 cached
+errors: 10
+
+error: script error [https://cdn.localizeapi.com/localize.js:5] SyntaxError: unterminated regular expression | «<»!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <title>Error</title> </head> <body> <pre>Cannot GET /localize.js</pre> </body> </html>  [stack: at line 5; at offset 0] [source: <!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <title>]
+error: script error [https://discord.com/webflow-scripts/newLocalization.js:?] TypeError: cannot read properties of undefined (reading 'getAvailableLanguages') [stack: at g:2; at anonymous:2; at t:2; at anonymous:2; at anonymous:2] [source: /*! For license information please see newLocalization.f11d50e5aa9ff50]
+error: script error [https://discord.com/webflow-scripts/head.js:?] TypeError: cannot read properties of undefined (reading 'getAvailableLanguages') [stack: at g:2; at anonymous:2; at anonymous:2; at anonymous:2] [source: /*! For license information please see head.d2a1877a9204d820794c.js.LI]
+error: script error [https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/js/discord-2022.f7d456ba.8e5a225247c7c6b7.js:?] TypeError: cannot read properties of undefined (reading 'dom') [stack: at anonymous:1; at anonymous:1; at t:1; at anonymous:1; at t:1; at anonymous:1; at t:1; at anonymous:1; at t:1; at anonymous:1; at t:1; at anonymous:1; at anonymous:1; at anonymous:1] [source: (()=>{var e={5043:function(e,r,t){t(9461),t(7624),t(286),t(8334),t(233]
+error: script error [https://discord.com/webflow-scripts/bodyEnd092026.js:?] TypeError: cannot read properties of undefined (reading 'getLanguage') [stack: at anonymous:2; at anonymous:2] [source: /*! For license information please see bodyEnd092026.cc801910fccbf7834]
+error: script error [https://discord.com/assets/oneTrust/v8/scripttemplates/otSDKStub.js:?] TypeError: cannot read properties of undefined (reading 'Domain') [stack: at anonymous:1; at anonymous:1; at anonymous:1; at anonymous:1; at anonymous:1; at anonymous:1; at S:1; at anonymous:1] [source: var OneTrustStub=(t=>{function e(t,s,r,u){return new(r=r||Promise)(fun]
+error: script error [inline:2] SyntaxError: unexpected `<` | «<»!-- endbuild -->     window.dataLayer = window.dataLayer || [];     window.dataLayer.push({ 'allCookiesOK': false });    [stack: at line 2; at offset 5] [source:      <!-- endbuild -->     window.dataLayer = window.dataLayer || []; ]
+error: script error [inline:?] TypeError: cannot read properties of undefined (reading 'split') [stack: at anonymous:1; at anonymous:1; at q:1; at anonymous:7; at anonymous:2] [source:      (function (w, d, s, l, i) {       w[l] = w[l] || []; w[l].push({ ]
+error: script error [https://discord.com/w/assets/3a756378428a770f27e63b63edc9fd6cc02fda3a/index-consolidated.js:?] TypeError: cannot set properties of undefined (setting 'constructor') [stack: at anonymous:1207; at s:1473; at anonymous:1282; at s:1473; at anonymous:1403; at s:1473; at anonymous:532; at s:1473; at anonymous:1476; at anonymous:1473; at anonymous:2] [source: /*! For license information please see index-consolidated.js.LICENSE.t]
+error: MutationObserver: TypeError: cannot read properties of undefined (reading 'split') [line 2]
+saved artifacts/sweep-discord.png (149981 bytes)

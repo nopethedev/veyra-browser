@@ -1,0 +1,47 @@
+LOAD stage=stylesheets ms=0
+LOAD stage=images ms=1028
+LOAD stage=scripts ms=2238
+LOAD stage=finish ms=27903
+FINISH dcl ms=0 steps=297664
+FINISH pump1 ms=36 steps=473135
+FINISH load ms=168 steps=473300
+FINISH css ms=166 styles=3
+FINISH pump2 ms=1 steps=473939
+REBUILD parse ms=131 sheets=22 bytes=3459476
+REBUILD compute ms=2054 elements=1099 matched=8600 candidates=420935
+REBUILD styles ms=2187 sheets=22
+REBUILD layout ms=118
+FINISH rebuild ms=2306 steps=473939
+LOAD stage=done ms=30584
+CLI Page::load ms=31480
+REBUILD parse ms=214 sheets=22 bytes=3459476
+REBUILD compute ms=1860 elements=1063 matched=8456 candidates=412151
+REBUILD styles ms=2076 sheets=22
+REBUILD layout ms=102
+CLI pump ms=2269
+REBUILD parse ms=218 sheets=21 bytes=3459476
+REBUILD compute ms=1245 elements=1062 matched=8452 candidates=411915
+REBUILD styles ms=1465 sheets=21
+REBUILD layout ms=111
+CLI wait pump ms=1658
+CLI timers ms=0
+url: https://discord.com/
+status: 200
+title: Discord - Group Chat That’s All Fun &amp; Games
+viewport: 1280x900
+elements: 1062
+layout boxes: 431
+scripts: 25 run, 0 modules skipped
+stylesheets: 3 network, 0 inserted
+images: 4 cached
+errors: 8
+
+error: script error [https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6257adef93867e50d84d30e2:?] TypeError: cannot read properties of undefined (reading 'createHTMLDocument') [stack: at anonymous:2; at anonymous:2]
+error: script error [https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/js/discord-2022.f7d456ba.8e5a225247c7c6b7.js:?] TypeError: value is not a function: o [stack: at anonymous:1; at t:1; at anonymous:1; at t:1; at anonymous:1; at t:1; at anonymous:1; at anonymous:1; at anonymous:1]
+error: script error [inline:?] ReferenceError: $ is not defined [stack: ]
+error: script error [https://discord.com/assets/oneTrust/v8/scripttemplates/otSDKStub.js:?] TypeError: cannot read properties of undefined (reading 'Domain') [stack: at anonymous:1; at anonymous:1; at anonymous:1; at anonymous:1; at anonymous:1; at anonymous:1; at S:1; at anonymous:1]
+error: script error [inline:2] SyntaxError: unexpected `<` | «<»!-- endbuild -->     window.dataLayer = window.dataLayer || [];     window.dataLayer.push({ 'allCookiesOK': false });    [stack: at line 2; at offset 5]
+error: script error [inline:?] TypeError: cannot read properties of undefined (reading 'split') [stack: at anonymous:1; at anonymous:1; at q:1; at anonymous:7; at anonymous:2]
+error: script error [https://discord.com/w/assets/3a756378428a770f27e63b63edc9fd6cc02fda3a/index-consolidated.js:?] TypeError: cannot set properties of undefined (setting 'constructor') [stack: at anonymous:1207; at s:1473; at anonymous:1282; at s:1473; at anonymous:1403; at s:1473; at anonymous:532; at s:1473; at anonymous:1476; at anonymous:1473; at anonymous:2]
+error: MutationObserver: TypeError: cannot read properties of undefined (reading 'split')
+saved artifacts/discord-run1.png (147485 bytes)

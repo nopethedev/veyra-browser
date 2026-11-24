@@ -1,0 +1,5 @@
+1
+error: script error [inline:?] TypeError: cannot read properties of undefined (reading 'set') [stack: ] [source: var ytcfg={d:function(){return window.yt&&yt.config_||ytcfg.data_||(yt]
+error: script error [https://www.youtube.com/s/desktop/db37c5a5/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:?] TypeError: cannot convert undefined or null to object [stack: at anonymous:1] [source: (function(){/*   Copyright The Closure Library Authors.  SPDX-License-]
+error: script error [inline:?] TypeError: cannot set properties of undefined (setting 'obfuscatedData_') [stack: at ytBootstrapConfig:1] [source: (function ytBootstrapConfig() {window.ytplayer={}; ytcfg.set({"CLIENT_]
+error: script error [https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.yxptUovAj5U.2021.O/am=AAAAAAABAABAAKQE/d=1/rs=AGKMywGF2rHPseR4NqJ8C-5FLrEt8koo8Q/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:?] throw: TypeError: right-hand side of 'in' is not an object [stack: at anonymous:5561; at anonymous:1] [source: "use strict";this.default_kevlar_base=this.default_kevlar_base||{};(fu]

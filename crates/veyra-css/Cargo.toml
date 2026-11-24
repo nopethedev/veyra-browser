@@ -1,0 +1,13 @@
+[package]
+name = "veyra-css"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CSS parsing, cascade and computed styles for the Veyra engine"
+
+[dependencies]
+veyra-common.workspace = true
+veyra-dom.workspace = true
+
+[dev-dependencies]
+veyra-html.workspace = true

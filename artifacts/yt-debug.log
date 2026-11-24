@@ -1,0 +1,92 @@
+SCRIPT inline len=944 start="window.WIZ_global_data = {\"AfY8Hf\":false,\"FL1an\":false,\"HiPs"
+SCRIPT OK ms=0 steps=48 class=
+SCRIPT inline len=400 start="var ytcfg={d:function(){return window.yt&&yt.config_||ytcfg."
+SCRIPT OK ms=0 steps=8 class=
+SCRIPT inline len=3427 start="(function(){window.yterr=window.yterr||true;window.unhandled"
+SCRIPT OK ms=0 steps=53 class=
+SCRIPT inline len=268 start="window.Polymer=window.Polymer||{};window.Polymer.legacyOptim"
+SCRIPT OK ms=0 steps=64 class=
+SCRIPT inline len=108 start="if ('undefined' == typeof Symbol || 'undefined' == typeof Sy"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT inline len=2084 start="var ytcsi={gt:function(n){n=(n||\"\")+\"data_\";return ytcsi[n]|"
+SCRIPT OK ms=0 steps=163 class=
+SCRIPT https://www.youtube.com/s/desktop/db37c5a5/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js len=50867 start="/*\n\n Copyright 2014 Google Inc. All rights reserved.\n\n Licen"
+SCRIPT OK ms=29 steps=5055 class=
+SCRIPT https://www.youtube.com/s/desktop/db37c5a5/jsbin/webcomponents-sd.vflset/webcomponents-sd.js len=78940 start="(function(){/*\n\n Copyright The Closure Library Authors.\n SPD"
+SCRIPT OK ms=27 steps=92 class=
+SCRIPT inline len=56 start="if (window.ytcsi) {window.ytcsi.tick('lpcs', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT inline len=832120 start="(function ytBootstrapConfig() {window.ytplayer={};\nytcfg.set"
+SCRIPT OK ms=17 steps=4181 class=
+SCRIPT inline len=56 start="if (window.ytcsi) {window.ytcsi.tick('lpcf', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT inline len=145 start="window.ytAtP = new Promise(res => window.ytAtN = res); windo"
+SCRIPT OK ms=0 steps=15 class=
+SCRIPT https://www.youtube.com/s/desktop/db37c5a5/jsbin/scheduler.vflset/scheduler.js len=8197 start="(function(){'use strict';var f,aa=typeof Object.create==\"fun"
+SCRIPT OK ms=2 steps=1942 class=
+SCRIPT https://www.youtube.com/s/desktop/db37c5a5/jsbin/www-i18n-constants-en_US.vflset/www-i18n-constants.js len=5817 start="(function(){'use strict';/*\n\n Copyright The Closure Library "
+SCRIPT OK ms=1 steps=542 class=
+SCRIPT https://www.youtube.com/s/desktop/db37c5a5/jsbin/spf.vflset/spf.js len=38482 start="(function(){var aa=typeof Object.create==\"function\"?Object.c"
+SCRIPT OK ms=23 steps=3185 class=
+SCRIPT inline len=133 start="if(window[\"_spf_state\"])window[\"_spf_state\"].config={\"assume"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT https://www.youtube.com/s/desktop/db37c5a5/jsbin/network.vflset/network.js len=14351 start="(function(){var aa=typeof Object.create==\"function\"?Object.c"
+SCRIPT OK ms=7 steps=592 class=
+SCRIPT inline len=55 start="if (window.ytcsi) {window.ytcsi.tick('csl', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT inline len=132 start="if (document.fonts && document.fonts.load) {document.fonts.l"
+SCRIPT OK ms=0 steps=22 class=
+SCRIPT inline len=54 start="if (window.ytcsi) {window.ytcsi.tick('bs', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT inline len=101 start="ytcfg.set('initialBodyClientWidth', document.body.clientWidt"
+SCRIPT OK ms=0 steps=35 class=
+SCRIPT inline len=54 start="if (window.ytcsi) {window.ytcsi.tick('ai', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT inline len=55 start="if (window.ytcsi) {window.ytcsi.tick('gcc', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT inline len=57 start="if (window.ytcsi) {window.ytcsi.tick('nc_pj', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT inline len=60 start="if (window.ytcsi) {window.ytcsi.tick('rsbe_dpj', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT inline len=57 start="if (window.ytcsi) {window.ytcsi.tick('js_ld', null, '');}"
+SCRIPT OK ms=0 steps=3 class=
+SCRIPT https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.base_module_set.en_US.5qgMULCvImE.2021.O/am=AAAAACAAAABAAKQE/d=1/rs=AGKMywHchMpo_tPPYyRz_AaTyOJlcaBH-Q/m=base len=1058555 start="\"use strict\";this.default_base_module_set=this.default_base_"
+SCRIPT OK ms=317 steps=120938 class=
+SCRIPT inline len=60 start="if (window.ytcsi) {window.ytcsi.tick('rsef_dpj', null, '');}"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT inline len=60 start="if (window.ytcsi) {window.ytcsi.tick('rsae_dpj', null, '');}"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT inline len=56 start="if (window.ytcsi) {window.ytcsi.tick('js_r', null, '');}"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT inline len=54 start="if (window.ytcsi) {window.ytcsi.tick('ac', null, '');}"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT inline len=317 start="var onPolymerReady = function(e) {window.removeEventListener"
+SCRIPT OK ms=0 steps=31 class=
+SCRIPT inline len=43015 start="(function() {if (window.ytAtN) {window.ytAtN({'R': '\\x7b\\x22"
+SCRIPT OK ms=0 steps=14 class=
+SCRIPT inline len=55 start="if (window.ytcsi) {window.ytcsi.tick('pdc', null, '');}"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT inline len=16033 start="var ytInitialData = {\"responseContext\":{\"serviceTrackingPara"
+SCRIPT OK ms=1 steps=706 class=
+SCRIPT inline len=55 start="if (window.ytcsi) {window.ytcsi.tick('pdr', null, '');}"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT inline len=974 start="(function serverContract() {window['ytPageType'] = \"browse\";"
+SCRIPT OK ms=0 steps=73 class=
+SCRIPT inline len=55 start="if (window.ytcsi) {window.ytcsi.tick('gcc', null, '');}"
+SCRIPT OK ms=0 steps=11 class=
+SCRIPT inline len=97 start="ytcfg.set({\"CSI_SERVICE_NAME\": 'youtube', \"TIMING_INFO\": {\"G"
+SCRIPT OK ms=0 steps=58 class=
+SCRIPT inline len=63 start="if (window.ytcsi) {ytcsi.infoGel({serverTimeMs:  152.0 }, ''"
+SCRIPT OK ms=0 steps=33 class=
+1
+error: script error [inline:?] TypeError: cannot read properties of undefined (reading 'set') [stack: ]
+error: script error [https://www.youtube.com/s/desktop/db37c5a5/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:?] TypeError: cannot convert undefined or null to object [stack: at anonymous:1]
+error: script error [inline:?] TypeError: cannot set properties of undefined (setting 'obfuscatedData_') [stack: at ytBootstrapConfig:1]
+error: script error [https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.base_module_set.en_US.5qgMULCvImE.2021.O/am=AAAAACAAAABAAKQE/d=1/rs=AGKMywHchMpo_tPPYyRz_AaTyOJlcaBH-Q/m=base:?] throw: TypeError: await on a promise that never settles without an event loop [stack: at anonymous:1981; at anonymous:1]
+error: script error [inline:?] TypeError: value is not a function: window.ytcsi.tick [stack: ]
+error: script error [inline:?] TypeError: value is not a function: window.ytcsi.tick [stack: ]
+error: script error [inline:?] TypeError: value is not a function: window.ytcsi.tick [stack: ]
+error: script error [inline:?] TypeError: value is not a function: window.ytcsi.tick [stack: ]
+error: script error [inline:?] TypeError: value is not a function: window.ytcsi.tick [stack: ]
+error: script error [inline:?] TypeError: value is not a function: window.ytcsi.tick [stack: ]
+error: script error [inline:?] TypeError: value is not a function: window.ytcsi.tick [stack: ]

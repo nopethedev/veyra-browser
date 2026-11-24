@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shadow and custom elements</title>
+<style>
+  body { margin: 20px; font-family: sans-serif; background: #f4f4f4; }
+  h1 { color: #222; }
+  my-card { margin: 12px 0; }
+  .leak { color: purple; }
+</style>
+</head>
+<body>
+  <h1>Custom elements + Shadow DOM</h1>
+  <my-card id="card">
+    <span slot="title" class="leak">Light title</span>
+    <p>Light body paragraph</p>
+  </my-card>
+  <my-card>
+    <span slot="title">Second title</span>
+    <p>Second body</p>
+  </my-card>
+  <script>
+    class MyCard extends HTMLElement {
+      static get observedAttributes() { return ['data-mode']; }
+      constructor() {
+        super();
+        const root = this.attachShadow({ mode: 'open' });
+        root.innerHTML = `
+          <style>
+            :host { display: block; border: 4px solid #2e7d32; padding: 12px; background: white; }
+            h2 { color: #c62828; margin: 0 0 8px; }
+            p { color: #1565c0; }
+            ::slotted(p) { color: #00695c; font-weight: bold; }
+          </style>
+          <h2>Shadow heading</h2>
+          <slot name="title"></slot>
+          <slot></slot>
+        `;
+      }
+      connectedCallback() {
+        this.setAttribute('data-ready', 'yes');
+        window.__life = (window.__life || []).concat('connected');
+      }
+      disconnectedCallback() {
+        window.__life = (window.__life || []).concat('disconnected');
+      }
+      attributeChangedCallback(name, oldValue, newValue) {
+        if (name === 'data-mode') this.setAttribute('data-mode-seen', String(newValue));
+      }
+    }
+    customElements.define('my-card', MyCard);
+    document.getElementById('card').setAttribute('data-mode', 'active');
+    const temporary = document.createElement('my-card');
+    temporary.id = 'temporary';
+    document.body.appendChild(temporary);
+    window.__syncConnected = temporary.getAttribute('data-ready');
+    temporary.remove();
+    window.__lifecycle = window.__life.slice();
+  </script>
+</body>
+</html>

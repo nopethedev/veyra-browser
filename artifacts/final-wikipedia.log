@@ -1,0 +1,31 @@
+LOAD stage=stylesheets ms=0
+LOAD stage=images ms=92
+LOAD stage=scripts ms=894
+LOAD stage=finish ms=994
+FINISH dcl ms=0 steps=154282
+FINISH pump1 ms=3 steps=163837
+FINISH load ms=0 steps=163837
+FINISH css ms=0 styles=2
+FINISH pump2 ms=0 steps=163837
+REBUILD parse ms=11 sheets=13 bytes=228089
+REBUILD compute ms=526 elements=4062 matched=11777 candidates=214986
+REBUILD styles ms=539 sheets=13
+REBUILD layout ms=147
+FINISH rebuild ms=687 steps=163837
+LOAD stage=done ms=1686
+CLI Page::load ms=2083
+CLI pump ms=0
+CLI wait pump ms=0
+CLI timers ms=0
+url: https://en.wikipedia.org/wiki/Web_browser
+status: 200
+title: Web browser - Wikipedia
+viewport: 1280x900
+elements: 4062
+layout boxes: 2789
+scripts: 4 run, 0 modules skipped
+stylesheets: 2 network, 0 inserted
+images: 7 cached
+errors: 0
+
+saved artifacts/final-wikipedia.png (479841 bytes)

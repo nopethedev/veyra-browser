@@ -1,0 +1,16 @@
+[package]
+name = "veyra-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Browser engine: pages, DOM bindings, layout and paint orchestration"
+
+[dependencies]
+veyra-common.workspace = true
+veyra-net.workspace = true
+veyra-dom.workspace = true
+veyra-html.workspace = true
+veyra-css.workspace = true
+veyra-layout.workspace = true
+veyra-paint.workspace = true
+veyra-js.workspace = true

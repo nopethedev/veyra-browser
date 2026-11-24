@@ -1,0 +1,10 @@
+[package]
+name = "veyra-html"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "HTML tokenizer and tree construction for the Veyra engine"
+
+[dependencies]
+veyra-common.workspace = true
+veyra-dom.workspace = true

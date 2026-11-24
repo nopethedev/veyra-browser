@@ -1,0 +1,35 @@
+LOAD stage=stylesheets ms=0
+LOAD stage=images ms=452
+LOAD stage=scripts ms=452
+LOAD stage=finish ms=2229
+FINISH dcl ms=1 steps=100170
+FINISH pump1 ms=0 steps=100170
+FINISH load ms=0 steps=100170
+FINISH css ms=150 styles=7
+FINISH pump2 ms=0 steps=100170
+REBUILD parse ms=85 sheets=12 bytes=3849697
+REBUILD compute ms=223 elements=417 matched=1232 candidates=56734
+REBUILD styles ms=310 sheets=12
+REBUILD layout ms=0
+FINISH rebuild ms=311 steps=100170
+LOAD stage=done ms=2693
+CLI Page::load ms=3197
+CLI pump ms=0
+CLI wait pump ms=0
+CLI timers ms=0
+url: https://www.youtube.com/
+status: 200
+title: YouTube
+viewport: 1280x900
+elements: 417
+layout boxes: 209
+scripts: 39 run, 0 modules skipped
+stylesheets: 7 network, 0 inserted
+images: 0 cached
+errors: 4
+
+error: script error [inline:?] TypeError: cannot read properties of undefined (reading 'set') [stack: ]
+error: script error [https://www.youtube.com/s/desktop/db37c5a5/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:?] TypeError: cannot convert undefined or null to object [stack: at anonymous:1]
+error: script error [inline:?] TypeError: cannot set properties of undefined (setting 'obfuscatedData_') [stack: at ytBootstrapConfig:1]
+error: script error [https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.yxptUovAj5U.2021.O/am=AAAAAAAQAABAAKQE/d=1/rs=AGKMywFgdKXb3IStw-cJ2EEWmaDmvCKKrw/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:?] throw: TypeError: right-hand side of 'in' is not an object [stack: at anonymous:5561; at anonymous:1]
+saved artifacts/final-youtube.png (27367 bytes)

@@ -1,0 +1,13 @@
+[package]
+name = "veyra-shell"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Desktop window, browser chrome and input for Veyra"
+
+[dependencies]
+veyra-common.workspace = true
+veyra-engine.workspace = true
+veyra-paint.workspace = true
+veyra-layout.workspace = true
+minifb = "0.29"

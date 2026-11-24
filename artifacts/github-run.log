@@ -1,0 +1,34 @@
+LOAD stage=stylesheets ms=0
+LOAD stage=images ms=10065
+LOAD stage=scripts ms=11461
+LOAD stage=finish ms=48631
+FINISH dcl ms=0 steps=19520
+FINISH pump1 ms=0 steps=19520
+FINISH load ms=0 steps=19520
+FINISH css ms=0 styles=20
+FINISH pump2 ms=0 steps=19520
+REBUILD parse ms=57 sheets=21 bytes=2581613
+REBUILD compute ms=2526 elements=2132 matched=13516 candidates=1533523
+REBUILD styles ms=2585 sheets=21
+REBUILD layout ms=820
+FINISH rebuild ms=3406 steps=19520
+LOAD stage=done ms=52037
+CLI Page::load ms=55362
+CLI pump ms=0
+CLI wait pump ms=0
+CLI timers ms=0
+url: https://github.com/
+status: 200
+title: GitHub · Change is constant. GitHub keeps you ahead. · GitHub · GitHub
+viewport: 1280x900
+elements: 2132
+layout boxes: 1617
+scripts: 5 run, 0 modules skipped
+stylesheets: 20 network, 0 inserted
+images: 2 cached
+errors: 3
+
+error: module error [https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js]: module https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js: TypeError: cannot read properties of undefined (reading 'length')
+error: module error [https://github.githubassets.com/assets/marketing-essentials-ddc148b02d14e72e.js]: module https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js: TypeError: cannot read properties of undefined (reading 'length')
+error: module error [https://github.githubassets.com/assets/landing-pages-d18beed1b19279fb.js]: module https://github.githubassets.com/assets/core-75d665ca6a58ddd8.js: TypeError: cannot read properties of undefined (reading 'length')
+saved artifacts/github-run.png (150356 bytes)
